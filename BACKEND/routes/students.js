@@ -70,7 +70,6 @@ router.route("/update/:sid").put(async(req,res)=>
 })
 
 //delete
-
 router.route("/delete/:sid").delete(async(req,res)=>{
 
     let userId = req.params.sid;
@@ -99,8 +98,5 @@ router.route("/get/:sid").get(async(req,res)=>{
     });
 
 });
-
-
-
 
 module.exports = router;
